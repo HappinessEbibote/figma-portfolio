@@ -463,9 +463,40 @@ margin-top: 2rem;
         transform: translate(-50%,-50%);
     }
     
-
-
-
-
-    
-
+    .filtercode {
+        max-width: 587px;
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .filter {
+        max-width: 149px;
+        min-height: 48px;
+        padding: 32px 20px 0px 20px;
+        font-size: 16px;
+        color: #7c7c7c;
+        background-color: #1a1a1a;
+        border: none;
+        text-decoration: none;
+        cursor: pointer;
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17.07px;
+        text-align: center;
+      }
+      .all {
+        color: #fffbfb;
+        border-bottom: 2px solid #7c7c7c;
+      }
+      .filter:hover {
+        border-bottom: 2px solid #7c7c7c;
+      }
+      
+      
+        
